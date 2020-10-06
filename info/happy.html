@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>happy</title>
+	<link rel="stylesheet" href="style-happy.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="../happy.jpg" alt="photo1">
+			<h1>Happy Mood</h1>
+			<br>
+			<hr>
+		</div>
+		<div class="content">
+			<h2>Current coures</h2>
+			<br>
+			<ul>
+				<li> <a href="https://www.w3schools.com/html/default.asp" target="_blank"> CSE 451 - HTML </a> </li>
+				<li> <a href="https://www.w3schools.com/js/default.asp" target="_blank"> CSE 543 - JavaScript </a></li>
+				<li> <a href="https://www.w3schools.com/bootstrap/" target="_blank"> CSE 122 - Bootstrap </a></li>
+			</ul>
+			<br>
+			<h2>Hobies</h2>
+				<ol>
+					<li>Game</li>
+					<li>Music</li>
+					<li>Movies</li>
+				</ol>
+		</div>
+		<div class="course">
+			<h1>Coures</h1>
+			<table  cellspacing="0">
+				<tr>
+					<th>Course number</th>
+					<th>Course title</th>
+					<th>Semester taken</th>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">For credit</td>
+				</tr>
+				<tr align="center">
+					<td>6.1223</td>
+					<td>Operating system</td>
+					<td>spring 19</td>
+				</tr>
+				<tr align="center">
+					<td>5.9480</td>
+					<td>Artifical intelligence</td>
+					<td>fall 19</td>
+				</tr>
+				<tr align="center">
+					<td>7.0879</td>
+					<td>Data mining</td>
+					<td>fall 19</td>
+				</tr>
+				<tr align="center">
+					<th colspan="3" align="center">For listener</th>
+				</tr>
+				<tr align="center">
+					<td>8.0383</td>
+					<td>Database</td>
+					<td>fall 19</td>
+				</tr>
+				<tr align="center">
+					<td>6.0393</td>
+					<td>Java programming</td>
+					<td>spring 19 19</td>
+				</tr>
+			</table>
+		</div>
+		<div class="submit">
+			<h1>Submit information</h1>
+			<table>
+				<form>
+					<tr>
+						<td>Full name:</td>
+						<td><input type="text" name="fullname" id=""></td>
+					</tr>
+					<tr>
+						<td rowspan="2">Gender:</td>
+						<td>Male <input  class="check_box" type="radio" name="gen"></td>
+						
+					</tr>
+					<tr>
+						<td>Female <input  class="check_box" type="radio" name="gen"></td>
+					</tr>
+					<tr>
+						<td rowspan="3">Hobies:</td>
+						<td>Music<input  class="check_box" type="checkbox" name="1" ></td>
+					</tr>
+					<tr>
+						<td>Games<input  class="check_box" type="checkbox" name="2" ></td>
+					</tr>
+					<tr>
+						<td>Movies<input class="check_box" type="checkbox" name="3" ></td>
+					</tr>
+					<tr>
+						<td>Date of birth:</td>
+						<td><input type="date" name="date"></td>
+					</tr>
+					<tr>
+						<td>Coutntry:</td>
+						<td><select name="country" id="" style="width: 100px; height: 25px; border: .5px solid rgb(126, 25, 42);">
+								<optgroup label="Bac">
+									<option value="1">Ha noi</option>
+									<option value="2">Bac Ninh</option>
+									<option value="3">Hoa Binh</option>
+									<option value="4">Lang Song</option>
+								</optgroup>
+								<optgroup label="Trung">
+									<option value="1">Ha Tinh</option>
+									<option value="2">Hue</option>
+									<option value="3">Thanh Hoa</option>
+									<option value="4">Da nang</option>
+								</optgroup>
+								<optgroup label="Nam">
+									<option value="1">Ho Chi Minh</option>
+									<option value="2">Sai Gon</option>
+									<option value="3">An Giang</option>
+									<option value="4">Ca Mau</option>
+								</optgroup>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Picture:</td>
+						<td><input type="file" name="file" id="" style="border: none;"></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="email" name="email" id=""></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="password" id=""></td>
+					</tr>
+					<tr>
+						<td>Favorite words:</td>
+						<td><textarea name="textarea" cols="41" rows="10"></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input class="button" type="submit" value="Submit" style="width: 100px; height: 40px; color: whitesmoke; border-radius: 20px;">
+							<input class="button" type="reset" value="Reset" style="width: 100px; height: 40px; color: whitesmoke; border-radius: 20px;">
+						</td>
+					</tr>
+				</form>
+			</table>
+		</div>
+		<div class="footer">
+			<h3><a href="../html-1-lab-1.html">Back</a></h3>
+		</div>
+	</div>
+		
+</body>
+</html>

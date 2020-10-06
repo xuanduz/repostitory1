@@ -1,0 +1,33 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #5a5546;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+span{
+    color: #cec32d;
+}
+.light-red{
+    color: red;
+}
+h1, h3{
+    color: #b2d7ff;
+}
+
+h4{
+    color: rgb(245, 71, 71);
+    text-align: center;
+}
+.moods{
+    display: flex;
+}
+.moods img{
+    margin: 40px;
+}
+.caption{
+    text-align: center;
+    margin-top: -30px;
+}
